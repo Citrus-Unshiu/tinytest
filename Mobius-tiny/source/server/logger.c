@@ -24,7 +24,7 @@ void logger_init(){
 void logger_free(){
     free(log_buffer);
 }
-
+//
 /**
  * @brief Print log message to stderr
  * @param tag Tag of the log message
